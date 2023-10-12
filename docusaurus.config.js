@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/cartman-respect-my-authority.webp',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://blog-elieeid.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'elieeid', // Usually your GitHub org/user name.
-  projectName: 'elieeid', // Usually your repo name.
+  projectName: 'blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/elieeid/elieeid',
+            'https://github.com/elieeid/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -70,7 +70,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/elieeid/elieeid',
+            href: 'https://github.com/elieeid/blog',
             label: 'GitHub',
             position: 'right',
           },
